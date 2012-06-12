@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1701CC1705C6413E0057EFE1 /* Gemini.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1005C6413E0057EFE1 /* Gemini.icns */; };
+		1701CC1805C6413E0057EFE1 /* Gemini.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1105C6413E0057EFE1 /* Gemini.psd */; };
+		1701CC1905C6413E0057EFE1 /* GeminiAlternate.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1205C6413E0057EFE1 /* GeminiAlternate.icns */; };
+		1701CC1A05C6413E0057EFE1 /* GeminiGlowing.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1305C6413E0057EFE1 /* GeminiGlowing.icns */; };
+		1701CC1B05C6413E0057EFE1 /* GeminiGlowing.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1405C6413E0057EFE1 /* GeminiGlowing.psd */; };
+		1701CC1C05C6413E0057EFE1 /* MultislitDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1505C6413E0057EFE1 /* MultislitDocument.icns */; };
+		1701CC1D05C6413E0057EFE1 /* spectra.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1701CC1605C6413E0057EFE1 /* spectra.psd */; };
+		1706B51B05C5F44100CAC579 /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = 1706B51A05C5F44100CAC579 /* Wave.h */; };
+		1713362005C5ECCE00D388B3 /* WavelengthCalibrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 171335FE05C5ECCE00D388B3 /* WavelengthCalibrator.m */; };
+		1713362105C5ECCE00D388B3 /* Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 171335FF05C5ECCE00D388B3 /* Wave.m */; };
+		1713362205C5ECCE00D388B3 /* TemplateTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360005C5ECCE00D388B3 /* TemplateTableController.m */; };
+		1713362305C5ECCE00D388B3 /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360105C5ECCE00D388B3 /* Template.m */; };
+		1713362405C5ECCE00D388B3 /* YesNoFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360205C5ECCE00D388B3 /* YesNoFormatter.m */; };
+		1713362605C5ECCE00D388B3 /* BAStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360405C5ECCE00D388B3 /* BAStringUtilities.m */; };
+		1713362705C5ECCE00D388B3 /* auxil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360505C5ECCE00D388B3 /* auxil.m */; };
+		1713362805C5ECCE00D388B3 /* CribImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360605C5ECCE00D388B3 /* CribImageView.m */; };
+		1713362905C5ECCE00D388B3 /* Capitalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360705C5ECCE00D388B3 /* Capitalize.m */; };
+		1713362A05C5ECCE00D388B3 /* CalibrationPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360805C5ECCE00D388B3 /* CalibrationPlotView.m */; };
+		1713362B05C5ECCE00D388B3 /* Bobify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360905C5ECCE00D388B3 /* Bobify.m */; };
+		1713362C05C5ECCE00D388B3 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360A05C5ECCE00D388B3 /* Image.m */; };
+		1713362D05C5ECCE00D388B3 /* FITSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360B05C5ECCE00D388B3 /* FITSImageView.m */; };
+		1713362E05C5ECCE00D388B3 /* ExtractionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360C05C5ECCE00D388B3 /* ExtractionWindowController.m */; };
+		1713363005C5ECCE00D388B3 /* Guide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360E05C5ECCE00D388B3 /* Guide.m */; };
+		1713363105C5ECCE00D388B3 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713360F05C5ECCE00D388B3 /* ColorCell.m */; };
+		1713363205C5ECCE00D388B3 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361005C5ECCE00D388B3 /* MyDocument.m */; };
+		1713363305C5ECCE00D388B3 /* Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361105C5ECCE00D388B3 /* Mask.m */; };
+		1713363405C5ECCE00D388B3 /* SymbolPlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361205C5ECCE00D388B3 /* SymbolPlotData.m */; };
+		1713363505C5ECCE00D388B3 /* Spectrum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361305C5ECCE00D388B3 /* Spectrum.m */; };
+		1713363605C5ECCE00D388B3 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361405C5ECCE00D388B3 /* AppController.m */; };
+		1713363705C5ECCE00D388B3 /* Slit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361505C5ECCE00D388B3 /* Slit.m */; };
+		1713363905C5ECCE00D388B3 /* RedshiftPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361705C5ECCE00D388B3 /* RedshiftPlotView.m */; };
+		1713363A05C5ECCE00D388B3 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361805C5ECCE00D388B3 /* PreferenceController.m */; };
+		1713363B05C5ECCE00D388B3 /* PlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361905C5ECCE00D388B3 /* PlotView.m */; };
+		1713363C05C5ECCE00D388B3 /* PlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361A05C5ECCE00D388B3 /* PlotData.m */; };
+		1713363D05C5ECCE00D388B3 /* Plot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361B05C5ECCE00D388B3 /* Plot.m */; };
+		1713363E05C5ECCE00D388B3 /* NodAndShuffleAperture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361C05C5ECCE00D388B3 /* NodAndShuffleAperture.m */; };
+		1713363F05C5ECCE00D388B3 /* SpectralTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361D05C5ECCE00D388B3 /* SpectralTemplate.m */; };
+		1713364005C5ECCE00D388B3 /* LinePlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361E05C5ECCE00D388B3 /* LinePlotData.m */; };
+		1713364105C5ECCE00D388B3 /* LineLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713361F05C5ECCE00D388B3 /* LineLabelData.m */; };
+		17223C0805C642C800161CD8 /* RevisionHistory.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17223C0705C642C800161CD8 /* RevisionHistory.rtf */; };
+		172963D305C5F4C900C1AA19 /* Bobify.h in Headers */ = {isa = PBXBuildFile; fileRef = 172963D205C5F4C900C1AA19 /* Bobify.h */; };
+		172963EA05C5F4DA00C1AA19 /* ExtractionWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 172963E905C5F4DA00C1AA19 /* ExtractionWindowController.h */; };
+		1729640105C5F4F800C1AA19 /* TemplateTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1729640005C5F4F800C1AA19 /* TemplateTableController.h */; };
+		1729640405C5F56800C1AA19 /* BAStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1729640305C5F56800C1AA19 /* BAStringUtilities.h */; };
+		1747F99605C5E93700CE3FEB /* features.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1747F99305C5E93700CE3FEB /* features.xml */; };
+		1747F99705C5E93700CE3FEB /* skyLines.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1747F99405C5E93700CE3FEB /* skyLines.xml */; };
+		1747F99805C5E93700CE3FEB /* templates.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1747F99505C5E93700CE3FEB /* templates.xml */; };
+		174B421505C5F76C00622BEB /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 174B421405C5F76C00622BEB /* Image.h */; };
+		174B422D05C5F78D00622BEB /* NodAndShuffleAperture.h in Headers */ = {isa = PBXBuildFile; fileRef = 174B422B05C5F78D00622BEB /* NodAndShuffleAperture.h */; };
+		174B422E05C5F78D00622BEB /* Mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 174B422C05C5F78D00622BEB /* Mask.h */; };
+		175C29E605C5EFAA006D6D68 /* ATMOSPHERE_KARL.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29DD05C5EFAA006D6D68 /* ATMOSPHERE_KARL.fits */; };
+		175C29E705C5EFAA006D6D68 /* REDFIX_f02m1_3.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29DE05C5EFAA006D6D68 /* REDFIX_f02m1_3.fits */; };
+		175C29E805C5EFAA006D6D68 /* REDFIX_DAVID.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29DF05C5EFAA006D6D68 /* REDFIX_DAVID.fits */; };
+		175C29E905C5EFAA006D6D68 /* REDFIX.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E005C5EFAA006D6D68 /* REDFIX.fits */; };
+		175C29EA05C5EFAA006D6D68 /* CATUVStarburst.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E105C5EFAA006D6D68 /* CATUVStarburst.fits */; };
+		175C29EB05C5EFAA006D6D68 /* ATMOSPHERE_DAVID.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E205C5EFAA006D6D68 /* ATMOSPHERE_DAVID.fits */; };
+		175C29EC05C5EFAA006D6D68 /* FLUXCAL_KARL.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E305C5EFAA006D6D68 /* FLUXCAL_KARL.fits */; };
+		175C29ED05C5EFAA006D6D68 /* FLUXCAL_DAVID.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E405C5EFAA006D6D68 /* FLUXCAL_DAVID.fits */; };
+		175C29EE05C5EFAA006D6D68 /* FLUXCAL.fits in Resources */ = {isa = PBXBuildFile; fileRef = 175C29E505C5EFAA006D6D68 /* FLUXCAL.fits */; };
+		1762423605C855BC00300DCF /* longnam.h in Headers */ = {isa = PBXBuildFile; fileRef = 1762423505C855BC00300DCF /* longnam.h */; };
+		176D4A0105C5F81D00A30625 /* ColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 176D4A0005C5F81D00A30625 /* ColorCell.h */; };
+		176D4A1605C5F83000A30625 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 176D4A1505C5F83000A30625 /* AppController.h */; };
+		176D4A2C05C5F84000A30625 /* AccessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 176D4A2B05C5F84000A30625 /* AccessorMacros.h */; };
+		176D4A4105C5F86900A30625 /* FITSImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 176D4A4005C5F86900A30625 /* FITSImageView.h */; };
+		176D4A5505C5F88100A30625 /* fits.h in Headers */ = {isa = PBXBuildFile; fileRef = 176D4A5405C5F88100A30625 /* fits.h */; };
+		176D4A6905C5F88F00A30625 /* fits.c in Sources */ = {isa = PBXBuildFile; fileRef = 176D4A6805C5F88F00A30625 /* fits.c */; };
+		1775528E11DBC7C800B0B9A6 /* libcfitsio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1775528D11DBC7C800B0B9A6 /* libcfitsio.a */; };
+		177D674E05C5F10F00843606 /* 53w091.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D672F05C5F10F00843606 /* 53w091.fits */; };
+		177D674F05C5F10F00843606 /* 53069_fit_linear.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673005C5F10F00843606 /* 53069_fit_linear.fits */; };
+		177D675005C5F10F00843606 /* a1star_b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673105C5F10F00843606 /* a1star_b.fits */; };
+		177D675105C5F10F00843606 /* CATUVStarburst.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673205C5F10F00843606 /* CATUVStarburst.fits */; };
+		177D675205C5F10F00843606 /* Fstar-UV.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673305C5F10F00843606 /* Fstar-UV.fits */; };
+		177D675305C5F10F00843606 /* GDDSEarly.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673405C5F10F00843606 /* GDDSEarly.fits */; };
+		177D675405C5F10F00843606 /* GDDSLate.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673505C5F10F00843606 /* GDDSLate.fits */; };
+		177D675505C5F10F00843606 /* k0star_b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673605C5F10F00843606 /* k0star_b.fits */; };
+		177D675605C5F10F00843606 /* LBG.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673705C5F10F00843606 /* LBG.fits */; };
+		177D675705C5F10F00843606 /* m5star_b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673805C5F10F00843606 /* m5star_b.fits */; };
+		177D675805C5F10F00843606 /* M32.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673905C5F10F00843606 /* M32.fits */; };
+		177D675905C5F10F00843606 /* n3610-trim.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673A05C5F10F00843606 /* n3610-trim.fits */; };
+		177D675A05C5F10F00843606 /* new-tremonti.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673B05C5F10F00843606 /* new-tremonti.fits */; };
+		177D675B05C5F10F00843606 /* newgdds-early.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673C05C5F10F00843606 /* newgdds-early.fits */; };
+		177D675C05C5F10F00843606 /* newgdds-int.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673D05C5F10F00843606 /* newgdds-int.fits */; };
+		177D675D05C5F10F00843606 /* newgdds-late.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673E05C5F10F00843606 /* newgdds-late.fits */; };
+		177D675E05C5F10F00843606 /* NGC2276b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D673F05C5F10F00843606 /* NGC2276b.fits */; };
+		177D675F05C5F10F00843606 /* NGC3379b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674005C5F10F00843606 /* NGC3379b.fits */; };
+		177D676005C5F10F00843606 /* NGC4485b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674105C5F10F00843606 /* NGC4485b.fits */; };
+		177D676105C5F10F00843606 /* NGC4889b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674205C5F10F00843606 /* NGC4889b.fits */; };
+		177D676205C5F10F00843606 /* NGC5248b.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674305C5F10F00843606 /* NGC5248b.fits */; };
+		177D676305C5F10F00843606 /* qso.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674405C5F10F00843606 /* qso.fits */; };
+		177D676405C5F10F00843606 /* SDSSLRGComposite.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674505C5F10F00843606 /* SDSSLRGComposite.fits */; };
+		177D676505C5F10F00843606 /* ssp_bc03_0.2Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674605C5F10F00843606 /* ssp_bc03_0.2Gyr.fits */; };
+		177D676605C5F10F00843606 /* ssp_bc03_0.6Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674705C5F10F00843606 /* ssp_bc03_0.6Gyr.fits */; };
+		177D676705C5F10F00843606 /* ssp_bc03_0.7Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674805C5F10F00843606 /* ssp_bc03_0.7Gyr.fits */; };
+		177D676805C5F10F00843606 /* ssp_bc03_1.0Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674905C5F10F00843606 /* ssp_bc03_1.0Gyr.fits */; };
+		177D676905C5F10F00843606 /* ssp_bc03_2.0Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674A05C5F10F00843606 /* ssp_bc03_2.0Gyr.fits */; };
+		177D676A05C5F10F00843606 /* ssp_bc03_5.3Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674B05C5F10F00843606 /* ssp_bc03_5.3Gyr.fits */; };
+		177D676B05C5F10F00843606 /* ssp_bc03_13.5Gyr.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674C05C5F10F00843606 /* ssp_bc03_13.5Gyr.fits */; };
+		177D676C05C5F10F00843606 /* SunNUV.fits in Resources */ = {isa = PBXBuildFile; fileRef = 177D674D05C5F10F00843606 /* SunNUV.fits */; };
+		178DC72705C5F8E700436379 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 178DC72605C5F8E700436379 /* defs.h */; };
+		1797F2C205C6DB0500FC217B /* MyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1797F2C105C6DB0500FC217B /* MyDocument.h */; };
+		179D654105C5F16D00011915 /* SkyLines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 179D654005C5F16D00011915 /* SkyLines.pdf */; };
+		17BE6E3005C5F2A300A752E0 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 17BE6E2C05C5F2A300A752E0 /* Preferences.nib */; };
+		17BE6E3105C5F2A300A752E0 /* TestExtractionWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 17BE6E2E05C5F2A300A752E0 /* TestExtractionWindow.nib */; };
+		8D15AC290486D014006FF6A4 /* iGDDS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* iGDDS_Prefix.pch */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1701CC1005C6413E0057EFE1 /* Gemini.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Gemini.icns; sourceTree = "<group>"; };
+		1701CC1105C6413E0057EFE1 /* Gemini.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gemini.psd; sourceTree = "<group>"; };
+		1701CC1205C6413E0057EFE1 /* GeminiAlternate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GeminiAlternate.icns; sourceTree = "<group>"; };
+		1701CC1305C6413E0057EFE1 /* GeminiGlowing.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GeminiGlowing.icns; sourceTree = "<group>"; };
+		1701CC1405C6413E0057EFE1 /* GeminiGlowing.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeminiGlowing.psd; sourceTree = "<group>"; };
+		1701CC1505C6413E0057EFE1 /* MultislitDocument.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MultislitDocument.icns; sourceTree = "<group>"; };
+		1701CC1605C6413E0057EFE1 /* spectra.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = spectra.psd; sourceTree = "<group>"; };
+		1706B51A05C5F44100CAC579 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		171335FE05C5ECCE00D388B3 /* WavelengthCalibrator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = WavelengthCalibrator.m; sourceTree = "<group>"; };
+		171335FF05C5ECCE00D388B3 /* Wave.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Wave.m; sourceTree = "<group>"; };
+		1713360005C5ECCE00D388B3 /* TemplateTableController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TemplateTableController.m; sourceTree = "<group>"; };
+		1713360105C5ECCE00D388B3 /* Template.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Template.m; sourceTree = "<group>"; };
+		1713360205C5ECCE00D388B3 /* YesNoFormatter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = YesNoFormatter.m; sourceTree = "<group>"; };
+		1713360405C5ECCE00D388B3 /* BAStringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BAStringUtilities.m; sourceTree = "<group>"; };
+		1713360505C5ECCE00D388B3 /* auxil.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = auxil.m; sourceTree = "<group>"; };
+		1713360605C5ECCE00D388B3 /* CribImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CribImageView.m; sourceTree = "<group>"; };
+		1713360705C5ECCE00D388B3 /* Capitalize.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Capitalize.m; sourceTree = "<group>"; };
+		1713360805C5ECCE00D388B3 /* CalibrationPlotView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CalibrationPlotView.m; sourceTree = "<group>"; };
+		1713360905C5ECCE00D388B3 /* Bobify.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Bobify.m; sourceTree = "<group>"; };
+		1713360A05C5ECCE00D388B3 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		1713360B05C5ECCE00D388B3 /* FITSImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FITSImageView.m; sourceTree = "<group>"; };
+		1713360C05C5ECCE00D388B3 /* ExtractionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ExtractionWindowController.m; sourceTree = "<group>"; };
+		1713360E05C5ECCE00D388B3 /* Guide.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Guide.m; sourceTree = "<group>"; };
+		1713360F05C5ECCE00D388B3 /* ColorCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ColorCell.m; sourceTree = "<group>"; };
+		1713361005C5ECCE00D388B3 /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		1713361105C5ECCE00D388B3 /* Mask.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Mask.m; sourceTree = "<group>"; };
+		1713361205C5ECCE00D388B3 /* SymbolPlotData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SymbolPlotData.m; sourceTree = "<group>"; };
+		1713361305C5ECCE00D388B3 /* Spectrum.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Spectrum.m; sourceTree = "<group>"; };
+		1713361405C5ECCE00D388B3 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1713361505C5ECCE00D388B3 /* Slit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Slit.m; sourceTree = "<group>"; };
+		1713361705C5ECCE00D388B3 /* RedshiftPlotView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RedshiftPlotView.m; sourceTree = "<group>"; };
+		1713361805C5ECCE00D388B3 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		1713361905C5ECCE00D388B3 /* PlotView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PlotView.m; sourceTree = "<group>"; };
+		1713361A05C5ECCE00D388B3 /* PlotData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PlotData.m; sourceTree = "<group>"; };
+		1713361B05C5ECCE00D388B3 /* Plot.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Plot.m; sourceTree = "<group>"; };
+		1713361C05C5ECCE00D388B3 /* NodAndShuffleAperture.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NodAndShuffleAperture.m; sourceTree = "<group>"; };
+		1713361D05C5ECCE00D388B3 /* SpectralTemplate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SpectralTemplate.m; sourceTree = "<group>"; };
+		1713361E05C5ECCE00D388B3 /* LinePlotData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LinePlotData.m; sourceTree = "<group>"; };
+		1713361F05C5ECCE00D388B3 /* LineLabelData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LineLabelData.m; sourceTree = "<group>"; };
+		17223C0705C642C800161CD8 /* RevisionHistory.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = RevisionHistory.rtf; sourceTree = "<group>"; };
+		172963D205C5F4C900C1AA19 /* Bobify.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Bobify.h; sourceTree = "<group>"; };
+		172963E905C5F4DA00C1AA19 /* ExtractionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ExtractionWindowController.h; sourceTree = "<group>"; };
+		1729640005C5F4F800C1AA19 /* TemplateTableController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TemplateTableController.h; sourceTree = "<group>"; };
+		1729640305C5F56800C1AA19 /* BAStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BAStringUtilities.h; sourceTree = "<group>"; };
+		1747F93605C5E8D800CE3FEB /* PlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlotView.h; sourceTree = "<group>"; };
+		1747F93705C5E8D800CE3FEB /* PlotData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlotData.h; sourceTree = "<group>"; };
+		1747F93805C5E8D800CE3FEB /* LineLabelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineLabelData.h; sourceTree = "<group>"; };
+		1747F93905C5E8D800CE3FEB /* WavelengthCalibrator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavelengthCalibrator.h; sourceTree = "<group>"; };
+		1747F93A05C5E8D800CE3FEB /* RedshiftPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedshiftPlotView.h; sourceTree = "<group>"; };
+		1747F93C05C5E8D800CE3FEB /* PreferenceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		1747F93D05C5E8D800CE3FEB /* Slit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slit.h; sourceTree = "<group>"; };
+		1747F93E05C5E8D800CE3FEB /* Capitalize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Capitalize.h; sourceTree = "<group>"; };
+		1747F93F05C5E8D800CE3FEB /* SpectralTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectralTemplate.h; sourceTree = "<group>"; };
+		1747F94005C5E8D800CE3FEB /* YesNoFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YesNoFormatter.h; sourceTree = "<group>"; };
+		1747F94105C5E8D800CE3FEB /* Template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		1747F94205C5E8D800CE3FEB /* SymbolPlotData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolPlotData.h; sourceTree = "<group>"; };
+		1747F94305C5E8D800CE3FEB /* Spectrum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spectrum.h; sourceTree = "<group>"; };
+		1747F94405C5E8D800CE3FEB /* CalibrationPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalibrationPlotView.h; sourceTree = "<group>"; };
+		1747F94605C5E8D800CE3FEB /* LinePlotData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinePlotData.h; sourceTree = "<group>"; };
+		1747F94705C5E8D800CE3FEB /* Plot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plot.h; sourceTree = "<group>"; };
+		1747F94A05C5E8D800CE3FEB /* fitsio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fitsio.h; sourceTree = "<group>"; };
+		1747F94B05C5E8D800CE3FEB /* Guide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guide.h; sourceTree = "<group>"; };
+		1747F94C05C5E8D800CE3FEB /* CribImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CribImageView.h; sourceTree = "<group>"; };
+		1747F99305C5E93700CE3FEB /* features.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = features.xml; sourceTree = "<group>"; };
+		1747F99405C5E93700CE3FEB /* skyLines.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = skyLines.xml; sourceTree = "<group>"; };
+		1747F99505C5E93700CE3FEB /* templates.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = templates.xml; sourceTree = "<group>"; };
+		174B421405C5F76C00622BEB /* Image.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		174B422B05C5F78D00622BEB /* NodAndShuffleAperture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NodAndShuffleAperture.h; sourceTree = "<group>"; };
+		174B422C05C5F78D00622BEB /* Mask.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Mask.h; sourceTree = "<group>"; };
+		175C29DD05C5EFAA006D6D68 /* ATMOSPHERE_KARL.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = ATMOSPHERE_KARL.fits; sourceTree = "<group>"; };
+		175C29DE05C5EFAA006D6D68 /* REDFIX_f02m1_3.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = REDFIX_f02m1_3.fits; sourceTree = "<group>"; };
+		175C29DF05C5EFAA006D6D68 /* REDFIX_DAVID.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = REDFIX_DAVID.fits; sourceTree = "<group>"; };
+		175C29E005C5EFAA006D6D68 /* REDFIX.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = REDFIX.fits; sourceTree = "<group>"; };
+		175C29E105C5EFAA006D6D68 /* CATUVStarburst.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = CATUVStarburst.fits; sourceTree = "<group>"; };
+		175C29E205C5EFAA006D6D68 /* ATMOSPHERE_DAVID.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = ATMOSPHERE_DAVID.fits; sourceTree = "<group>"; };
+		175C29E305C5EFAA006D6D68 /* FLUXCAL_KARL.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = FLUXCAL_KARL.fits; sourceTree = "<group>"; };
+		175C29E405C5EFAA006D6D68 /* FLUXCAL_DAVID.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = FLUXCAL_DAVID.fits; sourceTree = "<group>"; };
+		175C29E505C5EFAA006D6D68 /* FLUXCAL.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = FLUXCAL.fits; sourceTree = "<group>"; };
+		1762423505C855BC00300DCF /* longnam.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = longnam.h; sourceTree = "<group>"; };
+		176D4A0005C5F81D00A30625 /* ColorCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ColorCell.h; sourceTree = "<group>"; };
+		176D4A1505C5F83000A30625 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		176D4A2B05C5F84000A30625 /* AccessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AccessorMacros.h; sourceTree = "<group>"; };
+		176D4A4005C5F86900A30625 /* FITSImageView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FITSImageView.h; sourceTree = "<group>"; };
+		176D4A5405C5F88100A30625 /* fits.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fits.h; sourceTree = "<group>"; };
+		176D4A6805C5F88F00A30625 /* fits.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fits.c; sourceTree = "<group>"; };
+		1775528D11DBC7C800B0B9A6 /* libcfitsio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcfitsio.a; sourceTree = "<group>"; };
+		177D672F05C5F10F00843606 /* 53w091.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = 53w091.fits; path = SpectralTemplates/53w091.fits; sourceTree = SOURCE_ROOT; };
+		177D673005C5F10F00843606 /* 53069_fit_linear.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = 53069_fit_linear.fits; path = SpectralTemplates/53069_fit_linear.fits; sourceTree = SOURCE_ROOT; };
+		177D673105C5F10F00843606 /* a1star_b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = a1star_b.fits; path = SpectralTemplates/a1star_b.fits; sourceTree = SOURCE_ROOT; };
+		177D673205C5F10F00843606 /* CATUVStarburst.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = CATUVStarburst.fits; path = SpectralTemplates/CATUVStarburst.fits; sourceTree = SOURCE_ROOT; };
+		177D673305C5F10F00843606 /* Fstar-UV.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "Fstar-UV.fits"; path = "SpectralTemplates/Fstar-UV.fits"; sourceTree = SOURCE_ROOT; };
+		177D673405C5F10F00843606 /* GDDSEarly.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = GDDSEarly.fits; path = SpectralTemplates/GDDSEarly.fits; sourceTree = SOURCE_ROOT; };
+		177D673505C5F10F00843606 /* GDDSLate.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = GDDSLate.fits; path = SpectralTemplates/GDDSLate.fits; sourceTree = SOURCE_ROOT; };
+		177D673605C5F10F00843606 /* k0star_b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = k0star_b.fits; path = SpectralTemplates/k0star_b.fits; sourceTree = SOURCE_ROOT; };
+		177D673705C5F10F00843606 /* LBG.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = LBG.fits; path = SpectralTemplates/LBG.fits; sourceTree = SOURCE_ROOT; };
+		177D673805C5F10F00843606 /* m5star_b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = m5star_b.fits; path = SpectralTemplates/m5star_b.fits; sourceTree = SOURCE_ROOT; };
+		177D673905C5F10F00843606 /* M32.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = M32.fits; path = SpectralTemplates/M32.fits; sourceTree = SOURCE_ROOT; };
+		177D673A05C5F10F00843606 /* n3610-trim.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "n3610-trim.fits"; path = "SpectralTemplates/n3610-trim.fits"; sourceTree = SOURCE_ROOT; };
+		177D673B05C5F10F00843606 /* new-tremonti.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "new-tremonti.fits"; path = "SpectralTemplates/new-tremonti.fits"; sourceTree = SOURCE_ROOT; };
+		177D673C05C5F10F00843606 /* newgdds-early.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "newgdds-early.fits"; path = "SpectralTemplates/newgdds-early.fits"; sourceTree = SOURCE_ROOT; };
+		177D673D05C5F10F00843606 /* newgdds-int.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "newgdds-int.fits"; path = "SpectralTemplates/newgdds-int.fits"; sourceTree = SOURCE_ROOT; };
+		177D673E05C5F10F00843606 /* newgdds-late.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "newgdds-late.fits"; path = "SpectralTemplates/newgdds-late.fits"; sourceTree = SOURCE_ROOT; };
+		177D673F05C5F10F00843606 /* NGC2276b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = NGC2276b.fits; path = SpectralTemplates/NGC2276b.fits; sourceTree = SOURCE_ROOT; };
+		177D674005C5F10F00843606 /* NGC3379b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = NGC3379b.fits; path = SpectralTemplates/NGC3379b.fits; sourceTree = SOURCE_ROOT; };
+		177D674105C5F10F00843606 /* NGC4485b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = NGC4485b.fits; path = SpectralTemplates/NGC4485b.fits; sourceTree = SOURCE_ROOT; };
+		177D674205C5F10F00843606 /* NGC4889b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = NGC4889b.fits; path = SpectralTemplates/NGC4889b.fits; sourceTree = SOURCE_ROOT; };
+		177D674305C5F10F00843606 /* NGC5248b.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = NGC5248b.fits; path = SpectralTemplates/NGC5248b.fits; sourceTree = SOURCE_ROOT; };
+		177D674405C5F10F00843606 /* qso.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = qso.fits; path = SpectralTemplates/qso.fits; sourceTree = SOURCE_ROOT; };
+		177D674505C5F10F00843606 /* SDSSLRGComposite.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = SDSSLRGComposite.fits; path = SpectralTemplates/SDSSLRGComposite.fits; sourceTree = SOURCE_ROOT; };
+		177D674605C5F10F00843606 /* ssp_bc03_0.2Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_0.2Gyr.fits; path = SpectralTemplates/ssp_bc03_0.2Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674705C5F10F00843606 /* ssp_bc03_0.6Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_0.6Gyr.fits; path = SpectralTemplates/ssp_bc03_0.6Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674805C5F10F00843606 /* ssp_bc03_0.7Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_0.7Gyr.fits; path = SpectralTemplates/ssp_bc03_0.7Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674905C5F10F00843606 /* ssp_bc03_1.0Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_1.0Gyr.fits; path = SpectralTemplates/ssp_bc03_1.0Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674A05C5F10F00843606 /* ssp_bc03_2.0Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_2.0Gyr.fits; path = SpectralTemplates/ssp_bc03_2.0Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674B05C5F10F00843606 /* ssp_bc03_5.3Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_5.3Gyr.fits; path = SpectralTemplates/ssp_bc03_5.3Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674C05C5F10F00843606 /* ssp_bc03_13.5Gyr.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ssp_bc03_13.5Gyr.fits; path = SpectralTemplates/ssp_bc03_13.5Gyr.fits; sourceTree = SOURCE_ROOT; };
+		177D674D05C5F10F00843606 /* SunNUV.fits */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = SunNUV.fits; path = SpectralTemplates/SunNUV.fits; sourceTree = SOURCE_ROOT; };
+		178DC72605C5F8E700436379 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		1797F2C105C6DB0500FC217B /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		179D654005C5F16D00011915 /* SkyLines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SkyLines.pdf; path = Images/SkyLines.pdf; sourceTree = "<group>"; };
+		17BE6E2D05C5F2A300A752E0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		17BE6E2F05C5F2A300A752E0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TestExtractionWindow.nib; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* iGDDS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGDDS_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* iGDDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGDDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				1775528E11DBC7C800B0B9A6 /* libcfitsio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1701CBF505C641320057EFE1 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1701CC1005C6413E0057EFE1 /* Gemini.icns */,
+				1701CC1105C6413E0057EFE1 /* Gemini.psd */,
+				1701CC1205C6413E0057EFE1 /* GeminiAlternate.icns */,
+				1701CC1305C6413E0057EFE1 /* GeminiGlowing.icns */,
+				1701CC1405C6413E0057EFE1 /* GeminiGlowing.psd */,
+				1701CC1505C6413E0057EFE1 /* MultislitDocument.icns */,
+				1701CC1605C6413E0057EFE1 /* spectra.psd */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1706B51905C5F3F600CAC579 /* FITSIO */ = {
+			isa = PBXGroup;
+			children = (
+				176D4A5405C5F88100A30625 /* fits.h */,
+				176D4A6805C5F88F00A30625 /* fits.c */,
+				1747F94A05C5E8D800CE3FEB /* fitsio.h */,
+				1762423505C855BC00300DCF /* longnam.h */,
+			);
+			name = FITSIO;
+			sourceTree = "<group>";
+		};
+		172963B305C5F47800C1AA19 /* Auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				176D4A2B05C5F84000A30625 /* AccessorMacros.h */,
+				176D4A0005C5F81D00A30625 /* ColorCell.h */,
+				1713360F05C5ECCE00D388B3 /* ColorCell.m */,
+			);
+			name = Auxiliary;
+			sourceTree = "<group>";
+		};
+		172963B605C5F49F00C1AA19 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1747F93E05C5E8D800CE3FEB /* Capitalize.h */,
+				1713360705C5ECCE00D388B3 /* Capitalize.m */,
+				172963D205C5F4C900C1AA19 /* Bobify.h */,
+				1713360905C5ECCE00D388B3 /* Bobify.m */,
+				1747F94005C5E8D800CE3FEB /* YesNoFormatter.h */,
+				1713360205C5ECCE00D388B3 /* YesNoFormatter.m */,
+				1729640305C5F56800C1AA19 /* BAStringUtilities.h */,
+				1713360405C5ECCE00D388B3 /* BAStringUtilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1739047E05C5EF4100712984 /* SpectralTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				177D672F05C5F10F00843606 /* 53w091.fits */,
+				177D673005C5F10F00843606 /* 53069_fit_linear.fits */,
+				177D673105C5F10F00843606 /* a1star_b.fits */,
+				177D673205C5F10F00843606 /* CATUVStarburst.fits */,
+				177D673305C5F10F00843606 /* Fstar-UV.fits */,
+				177D673405C5F10F00843606 /* GDDSEarly.fits */,
+				177D673505C5F10F00843606 /* GDDSLate.fits */,
+				177D673605C5F10F00843606 /* k0star_b.fits */,
+				177D673705C5F10F00843606 /* LBG.fits */,
+				177D673805C5F10F00843606 /* m5star_b.fits */,
+				177D673905C5F10F00843606 /* M32.fits */,
+				177D673A05C5F10F00843606 /* n3610-trim.fits */,
+				177D673B05C5F10F00843606 /* new-tremonti.fits */,
+				177D673C05C5F10F00843606 /* newgdds-early.fits */,
+				177D673D05C5F10F00843606 /* newgdds-int.fits */,
+				177D673E05C5F10F00843606 /* newgdds-late.fits */,
+				177D673F05C5F10F00843606 /* NGC2276b.fits */,
+				177D674005C5F10F00843606 /* NGC3379b.fits */,
+				177D674105C5F10F00843606 /* NGC4485b.fits */,
+				177D674205C5F10F00843606 /* NGC4889b.fits */,
+				177D674305C5F10F00843606 /* NGC5248b.fits */,
+				177D674405C5F10F00843606 /* qso.fits */,
+				177D674505C5F10F00843606 /* SDSSLRGComposite.fits */,
+				177D674605C5F10F00843606 /* ssp_bc03_0.2Gyr.fits */,
+				177D674705C5F10F00843606 /* ssp_bc03_0.6Gyr.fits */,
+				177D674805C5F10F00843606 /* ssp_bc03_0.7Gyr.fits */,
+				177D674905C5F10F00843606 /* ssp_bc03_1.0Gyr.fits */,
+				177D674A05C5F10F00843606 /* ssp_bc03_2.0Gyr.fits */,
+				177D674B05C5F10F00843606 /* ssp_bc03_5.3Gyr.fits */,
+				177D674C05C5F10F00843606 /* ssp_bc03_13.5Gyr.fits */,
+				177D674D05C5F10F00843606 /* SunNUV.fits */,
+			);
+			path = SpectralTemplates;
+			sourceTree = "<group>";
+		};
+		173904BF05C5EF5900712984 /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				175C29DD05C5EFAA006D6D68 /* ATMOSPHERE_KARL.fits */,
+				175C29DE05C5EFAA006D6D68 /* REDFIX_f02m1_3.fits */,
+				175C29DF05C5EFAA006D6D68 /* REDFIX_DAVID.fits */,
+				175C29E005C5EFAA006D6D68 /* REDFIX.fits */,
+				175C29E105C5EFAA006D6D68 /* CATUVStarburst.fits */,
+				175C29E205C5EFAA006D6D68 /* ATMOSPHERE_DAVID.fits */,
+				175C29E305C5EFAA006D6D68 /* FLUXCAL_KARL.fits */,
+				175C29E405C5EFAA006D6D68 /* FLUXCAL_DAVID.fits */,
+				175C29E505C5EFAA006D6D68 /* FLUXCAL.fits */,
+			);
+			name = Calibration;
+			sourceTree = "<group>";
+		};
+		174B41EB05C5F73B00622BEB /* SpecialPlotting */ = {
+			isa = PBXGroup;
+			children = (
+				1747F93805C5E8D800CE3FEB /* LineLabelData.h */,
+				1713361F05C5ECCE00D388B3 /* LineLabelData.m */,
+				1747F94605C5E8D800CE3FEB /* LinePlotData.h */,
+				1713361E05C5ECCE00D388B3 /* LinePlotData.m */,
+			);
+			name = SpecialPlotting;
+			sourceTree = "<group>";
+		};
+		1775ECFA05C5ED3600C1F91A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1797F2C105C6DB0500FC217B /* MyDocument.h */,
+				1713361005C5ECCE00D388B3 /* MyDocument.m */,
+				1747F93D05C5E8D800CE3FEB /* Slit.h */,
+				1713361505C5ECCE00D388B3 /* Slit.m */,
+				1747F93905C5E8D800CE3FEB /* WavelengthCalibrator.h */,
+				171335FE05C5ECCE00D388B3 /* WavelengthCalibrator.m */,
+				1747F94105C5E8D800CE3FEB /* Template.h */,
+				1713360105C5ECCE00D388B3 /* Template.m */,
+				1747F94305C5E8D800CE3FEB /* Spectrum.h */,
+				1713361305C5ECCE00D388B3 /* Spectrum.m */,
+				1747F94B05C5E8D800CE3FEB /* Guide.h */,
+				1713360E05C5ECCE00D388B3 /* Guide.m */,
+				174B421405C5F76C00622BEB /* Image.h */,
+				1713360A05C5ECCE00D388B3 /* Image.m */,
+				174B422B05C5F78D00622BEB /* NodAndShuffleAperture.h */,
+				1713361C05C5ECCE00D388B3 /* NodAndShuffleAperture.m */,
+				174B422C05C5F78D00622BEB /* Mask.h */,
+				1713361105C5ECCE00D388B3 /* Mask.m */,
+				174B41EB05C5F73B00622BEB /* SpecialPlotting */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		179D653F05C5F13D00011915 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				179D654005C5F16D00011915 /* SkyLines.pdf */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		17B6CE7105C5EDA500944FAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1747F93A05C5E8D800CE3FEB /* RedshiftPlotView.h */,
+				1713361705C5ECCE00D388B3 /* RedshiftPlotView.m */,
+				1747F94405C5E8D800CE3FEB /* CalibrationPlotView.h */,
+				1713360805C5ECCE00D388B3 /* CalibrationPlotView.m */,
+				1747F94C05C5E8D800CE3FEB /* CribImageView.h */,
+				1713360605C5ECCE00D388B3 /* CribImageView.m */,
+				176D4A4005C5F86900A30625 /* FITSImageView.h */,
+				1713360B05C5ECCE00D388B3 /* FITSImageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		17B6CE7405C5EDAA00944FAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				172963E905C5F4DA00C1AA19 /* ExtractionWindowController.h */,
+				1713360C05C5ECCE00D388B3 /* ExtractionWindowController.m */,
+				176D4A1505C5F83000A30625 /* AppController.h */,
+				1713361405C5ECCE00D388B3 /* AppController.m */,
+				1747F93C05C5E8D800CE3FEB /* PreferenceController.h */,
+				1713361805C5ECCE00D388B3 /* PreferenceController.m */,
+				1729640005C5F4F800C1AA19 /* TemplateTableController.h */,
+				1713360005C5ECCE00D388B3 /* TemplateTableController.m */,
+				1747F93F05C5E8D800CE3FEB /* SpectralTemplate.h */,
+				1713361D05C5ECCE00D388B3 /* SpectralTemplate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		17E6162605C5F35000DD9A34 /* Plotting */ = {
+			isa = PBXGroup;
+			children = (
+				178DC72605C5F8E700436379 /* defs.h */,
+				1713360505C5ECCE00D388B3 /* auxil.m */,
+				1706B51A05C5F44100CAC579 /* Wave.h */,
+				171335FF05C5ECCE00D388B3 /* Wave.m */,
+				1747F93605C5E8D800CE3FEB /* PlotView.h */,
+				1713361905C5ECCE00D388B3 /* PlotView.m */,
+				1747F93705C5E8D800CE3FEB /* PlotData.h */,
+				1713361A05C5ECCE00D388B3 /* PlotData.m */,
+				1747F94705C5E8D800CE3FEB /* Plot.h */,
+				1713361B05C5ECCE00D388B3 /* Plot.m */,
+				1747F94205C5E8D800CE3FEB /* SymbolPlotData.h */,
+				1713361205C5ECCE00D388B3 /* SymbolPlotData.m */,
+			);
+			name = Plotting;
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* iGDDS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* iGDDS */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				17223C0705C642C800161CD8 /* RevisionHistory.rtf */,
+			);
+			name = iGDDS;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				172963B605C5F49F00C1AA19 /* Categories */,
+				172963B305C5F47800C1AA19 /* Auxiliary */,
+				17E6162605C5F35000DD9A34 /* Plotting */,
+				17B6CE7405C5EDAA00944FAA /* Controllers */,
+				17B6CE7105C5EDA500944FAA /* Views */,
+				1775ECFA05C5ED3600C1F91A /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1706B51905C5F3F600CAC579 /* FITSIO */,
+				32DBCF750370BD2300C91783 /* iGDDS_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1701CBF505C641320057EFE1 /* Icons */,
+				179D653F05C5F13D00011915 /* Images */,
+				173904BF05C5EF5900712984 /* Calibration */,
+				1739047E05C5EF4100712984 /* SpectralTemplates */,
+				1747F99305C5E93700CE3FEB /* features.xml */,
+				1747F99405C5E93700CE3FEB /* skyLines.xml */,
+				1747F99505C5E93700CE3FEB /* templates.xml */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				17BE6E2C05C5F2A300A752E0 /* Preferences.nib */,
+				17BE6E2E05C5F2A300A752E0 /* TestExtractionWindow.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1775528D11DBC7C800B0B9A6 /* libcfitsio.a */,
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D15AC280486D014006FF6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC290486D014006FF6A4 /* iGDDS_Prefix.pch in Headers */,
+				1706B51B05C5F44100CAC579 /* Wave.h in Headers */,
+				172963D305C5F4C900C1AA19 /* Bobify.h in Headers */,
+				172963EA05C5F4DA00C1AA19 /* ExtractionWindowController.h in Headers */,
+				1729640105C5F4F800C1AA19 /* TemplateTableController.h in Headers */,
+				1729640405C5F56800C1AA19 /* BAStringUtilities.h in Headers */,
+				174B421505C5F76C00622BEB /* Image.h in Headers */,
+				174B422D05C5F78D00622BEB /* NodAndShuffleAperture.h in Headers */,
+				174B422E05C5F78D00622BEB /* Mask.h in Headers */,
+				176D4A0105C5F81D00A30625 /* ColorCell.h in Headers */,
+				176D4A1605C5F83000A30625 /* AppController.h in Headers */,
+				176D4A2C05C5F84000A30625 /* AccessorMacros.h in Headers */,
+				176D4A4105C5F86900A30625 /* FITSImageView.h in Headers */,
+				176D4A5505C5F88100A30625 /* fits.h in Headers */,
+				178DC72705C5F8E700436379 /* defs.h in Headers */,
+				1797F2C205C6DB0500FC217B /* MyDocument.h in Headers */,
+				1762423605C855BC00300DCF /* longnam.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* iGDDS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D6BEA90FF3F0090069ACD4 /* Build configuration list for PBXNativeTarget "iGDDS" */;
+			buildPhases = (
+				8D15AC280486D014006FF6A4 /* Headers */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGDDS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iGDDS;
+			productReference = 8D15AC370486D014006FF6A4 /* iGDDS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 17D6BEA80FF3F0090069ACD4 /* Build configuration list for PBXProject "iGDDS" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* iGDDS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* iGDDS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1747F99605C5E93700CE3FEB /* features.xml in Resources */,
+				1747F99705C5E93700CE3FEB /* skyLines.xml in Resources */,
+				1747F99805C5E93700CE3FEB /* templates.xml in Resources */,
+				175C29E605C5EFAA006D6D68 /* ATMOSPHERE_KARL.fits in Resources */,
+				175C29E705C5EFAA006D6D68 /* REDFIX_f02m1_3.fits in Resources */,
+				175C29E805C5EFAA006D6D68 /* REDFIX_DAVID.fits in Resources */,
+				175C29E905C5EFAA006D6D68 /* REDFIX.fits in Resources */,
+				175C29EA05C5EFAA006D6D68 /* CATUVStarburst.fits in Resources */,
+				175C29EB05C5EFAA006D6D68 /* ATMOSPHERE_DAVID.fits in Resources */,
+				175C29EC05C5EFAA006D6D68 /* FLUXCAL_KARL.fits in Resources */,
+				175C29ED05C5EFAA006D6D68 /* FLUXCAL_DAVID.fits in Resources */,
+				175C29EE05C5EFAA006D6D68 /* FLUXCAL.fits in Resources */,
+				177D674E05C5F10F00843606 /* 53w091.fits in Resources */,
+				177D674F05C5F10F00843606 /* 53069_fit_linear.fits in Resources */,
+				177D675005C5F10F00843606 /* a1star_b.fits in Resources */,
+				177D675105C5F10F00843606 /* CATUVStarburst.fits in Resources */,
+				177D675205C5F10F00843606 /* Fstar-UV.fits in Resources */,
+				177D675305C5F10F00843606 /* GDDSEarly.fits in Resources */,
+				177D675405C5F10F00843606 /* GDDSLate.fits in Resources */,
+				177D675505C5F10F00843606 /* k0star_b.fits in Resources */,
+				177D675605C5F10F00843606 /* LBG.fits in Resources */,
+				177D675705C5F10F00843606 /* m5star_b.fits in Resources */,
+				177D675805C5F10F00843606 /* M32.fits in Resources */,
+				177D675905C5F10F00843606 /* n3610-trim.fits in Resources */,
+				177D675A05C5F10F00843606 /* new-tremonti.fits in Resources */,
+				177D675B05C5F10F00843606 /* newgdds-early.fits in Resources */,
+				177D675C05C5F10F00843606 /* newgdds-int.fits in Resources */,
+				177D675D05C5F10F00843606 /* newgdds-late.fits in Resources */,
+				177D675E05C5F10F00843606 /* NGC2276b.fits in Resources */,
+				177D675F05C5F10F00843606 /* NGC3379b.fits in Resources */,
+				177D676005C5F10F00843606 /* NGC4485b.fits in Resources */,
+				177D676105C5F10F00843606 /* NGC4889b.fits in Resources */,
+				177D676205C5F10F00843606 /* NGC5248b.fits in Resources */,
+				177D676305C5F10F00843606 /* qso.fits in Resources */,
+				177D676405C5F10F00843606 /* SDSSLRGComposite.fits in Resources */,
+				177D676505C5F10F00843606 /* ssp_bc03_0.2Gyr.fits in Resources */,
+				177D676605C5F10F00843606 /* ssp_bc03_0.6Gyr.fits in Resources */,
+				177D676705C5F10F00843606 /* ssp_bc03_0.7Gyr.fits in Resources */,
+				177D676805C5F10F00843606 /* ssp_bc03_1.0Gyr.fits in Resources */,
+				177D676905C5F10F00843606 /* ssp_bc03_2.0Gyr.fits in Resources */,
+				177D676A05C5F10F00843606 /* ssp_bc03_5.3Gyr.fits in Resources */,
+				177D676B05C5F10F00843606 /* ssp_bc03_13.5Gyr.fits in Resources */,
+				177D676C05C5F10F00843606 /* SunNUV.fits in Resources */,
+				179D654105C5F16D00011915 /* SkyLines.pdf in Resources */,
+				17BE6E3005C5F2A300A752E0 /* Preferences.nib in Resources */,
+				17BE6E3105C5F2A300A752E0 /* TestExtractionWindow.nib in Resources */,
+				1701CC1705C6413E0057EFE1 /* Gemini.icns in Resources */,
+				1701CC1805C6413E0057EFE1 /* Gemini.psd in Resources */,
+				1701CC1905C6413E0057EFE1 /* GeminiAlternate.icns in Resources */,
+				1701CC1A05C6413E0057EFE1 /* GeminiGlowing.icns in Resources */,
+				1701CC1B05C6413E0057EFE1 /* GeminiGlowing.psd in Resources */,
+				1701CC1C05C6413E0057EFE1 /* MultislitDocument.icns in Resources */,
+				1701CC1D05C6413E0057EFE1 /* spectra.psd in Resources */,
+				17223C0805C642C800161CD8 /* RevisionHistory.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				1713362005C5ECCE00D388B3 /* WavelengthCalibrator.m in Sources */,
+				1713362105C5ECCE00D388B3 /* Wave.m in Sources */,
+				1713362205C5ECCE00D388B3 /* TemplateTableController.m in Sources */,
+				1713362305C5ECCE00D388B3 /* Template.m in Sources */,
+				1713362405C5ECCE00D388B3 /* YesNoFormatter.m in Sources */,
+				1713362605C5ECCE00D388B3 /* BAStringUtilities.m in Sources */,
+				1713362705C5ECCE00D388B3 /* auxil.m in Sources */,
+				1713362805C5ECCE00D388B3 /* CribImageView.m in Sources */,
+				1713362905C5ECCE00D388B3 /* Capitalize.m in Sources */,
+				1713362A05C5ECCE00D388B3 /* CalibrationPlotView.m in Sources */,
+				1713362B05C5ECCE00D388B3 /* Bobify.m in Sources */,
+				1713362C05C5ECCE00D388B3 /* Image.m in Sources */,
+				1713362D05C5ECCE00D388B3 /* FITSImageView.m in Sources */,
+				1713362E05C5ECCE00D388B3 /* ExtractionWindowController.m in Sources */,
+				1713363005C5ECCE00D388B3 /* Guide.m in Sources */,
+				1713363105C5ECCE00D388B3 /* ColorCell.m in Sources */,
+				1713363205C5ECCE00D388B3 /* MyDocument.m in Sources */,
+				1713363305C5ECCE00D388B3 /* Mask.m in Sources */,
+				1713363405C5ECCE00D388B3 /* SymbolPlotData.m in Sources */,
+				1713363505C5ECCE00D388B3 /* Spectrum.m in Sources */,
+				1713363605C5ECCE00D388B3 /* AppController.m in Sources */,
+				1713363705C5ECCE00D388B3 /* Slit.m in Sources */,
+				1713363905C5ECCE00D388B3 /* RedshiftPlotView.m in Sources */,
+				1713363A05C5ECCE00D388B3 /* PreferenceController.m in Sources */,
+				1713363B05C5ECCE00D388B3 /* PlotView.m in Sources */,
+				1713363C05C5ECCE00D388B3 /* PlotData.m in Sources */,
+				1713363D05C5ECCE00D388B3 /* Plot.m in Sources */,
+				1713363E05C5ECCE00D388B3 /* NodAndShuffleAperture.m in Sources */,
+				1713363F05C5ECCE00D388B3 /* SpectralTemplate.m in Sources */,
+				1713364005C5ECCE00D388B3 /* LinePlotData.m in Sources */,
+				1713364105C5ECCE00D388B3 /* LineLabelData.m in Sources */,
+				176D4A6905C5F88F00A30625 /* fits.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17BE6E2C05C5F2A300A752E0 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BE6E2D05C5F2A300A752E0 /* English */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		17BE6E2E05C5F2A300A752E0 /* TestExtractionWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BE6E2F05C5F2A300A752E0 /* English */,
+			);
+			name = TestExtractionWindow.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = MyDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D6BEA20FF3F0090069ACD4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		17D6BEA30FF3F0090069ACD4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		17D6BEA40FF3F0090069ACD4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		17D6BEA50FF3F0090069ACD4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGDDS_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/abraham/iGDDS,
+					/Users/abraham/Astronomy/CurrentProjects/GDDS/SourceCode/iGDDS,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iGDDS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		17D6BEA60FF3F0090069ACD4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGDDS_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/abraham/iGDDS,
+					/Users/abraham/Astronomy/CurrentProjects/GDDS/SourceCode/iGDDS,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iGDDS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		17D6BEA70FF3F0090069ACD4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGDDS_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/abraham/iGDDS,
+					/Users/abraham/Astronomy/CurrentProjects/GDDS/SourceCode/iGDDS,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iGDDS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D6BEA80FF3F0090069ACD4 /* Build configuration list for PBXProject "iGDDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D6BEA20FF3F0090069ACD4 /* Development */,
+				17D6BEA30FF3F0090069ACD4 /* Deployment */,
+				17D6BEA40FF3F0090069ACD4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		17D6BEA90FF3F0090069ACD4 /* Build configuration list for PBXNativeTarget "iGDDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D6BEA50FF3F0090069ACD4 /* Development */,
+				17D6BEA60FF3F0090069ACD4 /* Deployment */,
+				17D6BEA70FF3F0090069ACD4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

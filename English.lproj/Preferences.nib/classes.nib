@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeAtmosphericCorrectionFilename = id; 
+                changeFluxCalibrationFilename = id; 
+                changeInputFileLocation = id; 
+                changeOutputFileLocation = id; 
+                changeOutputFilePrefix = id; 
+                changeRedEndCorrectionFilename = id; 
+                changeSkyColor = id; 
+                changeSpecColor = id; 
+            }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                atmosphericCorrectionFilenameField = NSTextField; 
+                fluxCalibrationFilenameField = NSTextField; 
+                inputFileLocationField = NSTextField; 
+                outputFileLocationField = NSTextField; 
+                outputFilePrefixField = NSTextField; 
+                redEndCorrectionFilenameField = NSTextField; 
+                skyColorWell = NSColorWell; 
+                specColorWell = NSColorWell; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

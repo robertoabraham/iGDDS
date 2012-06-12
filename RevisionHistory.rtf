@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\fs24 \cf0 Changes in v.0.89\
+ - Updated codebase for XCode 3.2 and Snow Leopard. This revealed a bad bug in the readspectrum routine that I'm amazed wasn't caught years ago (character arrray sizes were dimensioned in a way that did not account for the final null character in strings).\
+ - This was was done to begin support for LRIS data. Since I'll be working on the LRIS branch mainly I'm going to tag this version "Gemini Release 1".\
+\
+Changes in v.0.88\
+  - After a four-year hiatus, iGDDS is being dusted off once again.\
+  - Numerous small hacks were needed to get iGDDS to work using Mac OS X 10.5. A few of these make use of new methods in recent versions of Mac OS X for accessing pixels in image representations directly (e.g. getPixel:atX:Y). This means I was able to remove a fair bit of ugly and fragile code for this from iGDDS. (For example, see the simplified version of the createRepresentationWithMin:andMax: method in the Image class).\
+  - Fixed a bug where the extractionWindowController was not refreshing stored plots correctly.\
+  - Fixed minor bug in extraction weights file FITS file output (purely cosmetic... no impact on any extractions).\
+\
+Changes in v.0.87\
+  - the scrolling FITSImageView now also shows the NodAndShuffle aperture. The aperture can only be edited in the top FITSImageView though. (Requested by KGB for use with the GLARE data). \
+  - the NodAndShuffleAperture object now has a property that indicates whether or not control points should be drawn.\
+  - the NodAndShuffleAperture now can now send messages to a delegate.\
+\
+Changes in v.0.86\
+  - Fixed bug in outputting multi-extension FITS files for spectra without "fresh" extractions. \
+\
+Changes in v.0.85\
+  - Fixed bug in external spectrum flux calibration normalization (it wasn't picking up the division by the local pixel scale because a different method was used to flux calibrate the external spectrum.\
+  - Added a new method to the Wave object (localGridInPlace) to make the calculation needed above easy.\
+\
+Changes in v.0.84\
+  - Fixed yet another stupid drawing bug in the sky spectrum drawing method.\
+\
+Changes in v.0.83\
+  - Fixed bug in NSExtractionWindowController that caused a crash when using an external spectrum.\
+\
+Changes in v.0.82\
+  - First from-the-ground-up XCode-based release. \
+  - Numerous changes to #import statements to get things to work with XCode (added many @class statements). XCode is less forgiving of circular imports it seems\'85\
+  - Changed AccessorMacros.h so it gets used with #include with import guards instead of #import. This seemed to make XCode a lot happier.\
+\
+Changes in v.0.81\
+  - Fixed wavelength calibration bug. The fluxed specta needed to be divided by the local pixel scale in Angstroms on a point-by-point basis. This is roughly a factor of 3.5 for GDDS data.\
+\
+Changes in v.0.80\
+  - Added an NSController to the MyDocument.nib file\
+  - Used NSController to add a slew of new GUI elements needed to make iGDDS generally applicable to all GMOS data. These default to GDDS settings. \
+ \
+Changes in v.0.79\
+ - Fixed a bug where wavelength calibration of a pristine slit prevented other slits from being opened.\
+ - Fixed bug preventing the NSColorWell from opening when clicked upon to change a template colour.\
+\
+Changes in v.0.78\
+ - Exporting an external spectrum will co-add if the slit's coAddCompanionSpectrum property is set to YES.\
+\
+Changes in v.0.77\
+- Improved colors\
+- Added basic attribute support for eventually supporting self-plotting slits.\
+\
+Changes in v.0.76\
+- Added slit-width information to output text file for Sandra.\
+- Fixed a bug preventing the state of the "use external spectrum button" from being read in from a saved file. \
+- Fixed a bug where smoothing displaced a wave unless p0 was set to 0. Thanks to David for noticing the effects of this!\
+\
+Changes in v.0.75\
+- Fixed drawing issue in cityscape mode where the origin of the pixel was at the top-left corner of the histogram bin instead of at the middle.\
+- Fixed a wavelength controller issue resulting in unity-offset from imported FITS files.\
+\
+Changes in v.0.74\
+- Fixed FITS wave import bug reported by David (all spectra were offset by one pixel).\
+\
+Changes in v.0.73\
+- New template selection mechanism in the redshft tab. The current system is now much more general and extensible: templates are selected from a table so the number of templates can grow infinitely. To add a new template simply modify the templates.xml resources file and drop the file into the SpectralTemplates folder.\
+- Many new templates added. Well done Karl and Pat!\
+- Fixed a bug preventing some slits from opening.\
+\
+Changes in v 0.72:\
+- User can specify a common wavelength at which all template spectra are normalized.\
+- External spectra can now be one-dimensional FITS files or iGDDS text-format spectra.\
+- Fixed bug where optimal extraction wasn't being used in the redshift tab.\
+- Added support for co-adding an external spectrum.\
+- Added support for use of external spectrum exposure time information.}

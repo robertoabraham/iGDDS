@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>File</key>
+		<string>newgdds-early</string>
+		<key>Label</key>
+		<string>GDDS early-type galaxy composite</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>newgdds-int</string>
+		<key>Label</key>
+		<string>GDDS Intermediate-type galaxy composite</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>newgdds-late</string>
+		<key>Label</key>
+		<string>GDDS Late-type galaxy composite</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>SDSSLRGComposite</string>
+		<key>Label</key>
+		<string>Luminous Red Galaxy (LRG) composite from Sloan Survey (Eisenstein et al.)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>new-tremonti</string>
+		<key>Label</key>
+		<string>UV Starburst (KGB combination of Tremonti spectra)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>Fstar-UV</string>
+		<key>Label</key>
+		<string>UV F-star spectrum (PMC2 combination of IUE spectra)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>53069_fit_linear</string>
+		<key>Label</key>
+		<string>53W069 (Dunlop et al.)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>53w091</string>
+		<key>Label</key>
+		<string>53W091 (Dunlop et al.)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>LBG</string>
+		<key>Label</key>
+		<string>Lyman break galaxy composite (Shapley et al.)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_0.2Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (0.2 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_0.6Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (0.6 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_0.7Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (0.7 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_1.0Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (1.0 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_2.0Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (2.0 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_5.3Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (5.3 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>ssp_bc03_13.5Gyr</string>
+		<key>Label</key>
+		<string>BC03 SSP (13.5 Gyr)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC5248b</string>
+		<key>Label</key>
+		<string>NGC5248 (spiral galaxy in Virgo)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>a1star_b</string>
+		<key>Label</key>
+		<string>A1 star</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>k0star_b</string>
+		<key>Label</key>
+		<string>K0 star</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>m5star_b</string>
+		<key>Label</key>
+		<string>M5 star</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>qso</string>
+		<key>Label</key>
+		<string>QSO</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC2276b</string>
+		<key>Label</key>
+		<string>NGC2276 (giant, asymmetric spiral galaxy)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC3379b</string>
+		<key>Label</key>
+		<string>NGC3379 (elliptical galaxy often used as a reference for surface photometry work)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC4485b</string>
+		<key>Label</key>
+		<string>NGC4485 (merging spiral galaxy)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC4889b</string>
+		<key>Label</key>
+		<string>NGC4889 (elliptical galaxy in Coma)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>NGC5248b</string>
+		<key>Label</key>
+		<string>NGC5248 (spiral galaxy in Virgo)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+		<dict>
+		<key>File</key>
+		<string>M32</string>
+		<key>Label</key>
+		<string>UV spectrum of M32</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>n3610-trim</string>
+		<key>Label</key>
+		<string>UV spectrum of NGC3610 (a “dynamically young” elliptical)</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+	<dict>
+		<key>File</key>
+		<string>SunNUV</string>
+		<key>Label</key>
+		<string>UV Solar Spectrum</string>
+		<key>Type</key>
+		<string>fits</string>
+	</dict>
+</array>
+</plist>

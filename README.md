@@ -1,4 +1,4 @@
 iGDDS
 =====
 
-Gemini Nod &amp; Shuffle data reduction software
+Gemini Nod and Shuffle data reduction software
